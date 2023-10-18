@@ -11,3 +11,8 @@ Task 1: Write a function that prints numbers, followed by a new line.
     where separator is the string to be printed between numbers
     If separator is NULL, don’t print it
     Print a new line at the end of your function
+
+Task 2: Write a function that prints strings, followed by a new line.
+
+    Prototype: void print_strings(const char *separator, const unsigned int n, ...);
+    
