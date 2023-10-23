@@ -3,10 +3,10 @@
 #include "lists.h"
 
 /**
- * print_list - prbrints items in a list
- * @h: head of the list
- * Return: size_t
- */
+* print_list - prints all the elements of a list_t list.
+* @h: head of the list
+* Return: size_t
+*/
 
 size_t print_list(const list_t *h)
 {
