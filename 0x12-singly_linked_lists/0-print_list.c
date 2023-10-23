@@ -5,7 +5,6 @@
 /**
  * print_list - prints items in a list
  * @h: head of the list
- * @size_t: number of nodes
  * Return: size_t
  */
 
