@@ -5,3 +5,8 @@ Task 0: Write a function that prints all the elements of a listint_t list.
     Format: see example
     You are allowed to use printf
 
+Task 2: Write a function that adds a new node at the beginning of a listint_t list.
+
+    Prototype: listint_t *add_nodeint(listint_t **head, const int n);
+    Return: the address of the new element, or NULL if it failed
+
