@@ -14,5 +14,6 @@ int guess_prime(int n, int guess);
 int is_palindrome(char *s);
 int _strlen_recursion(char *str);
 int check_if_pal(char *str, int x, int str_len);
+int wildcmp(char *s1, char *s2);
 
 #endif
