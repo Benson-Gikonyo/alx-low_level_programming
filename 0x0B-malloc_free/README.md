@@ -39,3 +39,10 @@ Task 5: Write a function that concatenates all the arguments of your program.
     Returns NULL if ac == 0 or av == NULL
     Returns a pointer to a new string, or NULL if it fails
     Each argument should be followed by a \n in the new string
+
+Task 6: Write a function that splits a string into words.
+
+    Prototype: char **strtow(char *str);
+    The function returns a pointer to an array of strings (words)
+    Returns NULL if str == NULL or str == ""
+    If your function fails, it should return NULL
