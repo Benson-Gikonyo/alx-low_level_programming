@@ -12,7 +12,7 @@
 
 char *argstostr(int ac, char **av)
 {
-	int x, y, z = 0, count = 0;
+	int x, y, z, count = 0;
 	char *str;
 
 	if (ac == 0 || !av)
@@ -24,11 +24,14 @@ char *argstostr(int ac, char **av)
 		{
 			count++;
 		}
+		count++;
 	}
 
 	str = (char *) malloc(count * sizeof(char) + 1);
 	if (!str)
 		return (NULL);
+
+	z = 0;
 
 	for (x = 0; x < ac; x++)
 	{
