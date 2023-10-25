@@ -28,3 +28,8 @@ Task 4: Write a function that returns the value of x raised to the power of y.
     If y is lower than 0, the function should return -1
 
 FYI: The standard library provides a different function: pow. Run man pow to learn more.
+
+Task 5: Write a function that returns 1 if a string is a palindrome and 0 if not.
+
+    Prototype: int is_palindrome(char *s);
+    An empty string is a palindrome
