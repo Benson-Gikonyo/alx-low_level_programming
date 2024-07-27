@@ -6,9 +6,9 @@
  * @s: initial pointer
  * @to: new pointer to update
  * Return: void
-*/
+ */
 
 void set_string(char **s, char *to)
 {
-    *s = to; 
+    *s = to;
 }
